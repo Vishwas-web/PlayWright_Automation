@@ -10,7 +10,7 @@ This repository is created for practicing and demonstrating basic Playwright scr
 First, you need to clone the repository to your local machine. Open your terminal and run the following command:
 
 ```sh
-git clone https://github.com/your-username/playwright-practice.git
+https://github.com/Vishwas-web/PlayWright_Automation.git
 cd playwright-practice
 ```
 ## Install Node.js
