@@ -12,11 +12,11 @@ test('CheckBox Radio Buttons',async({page})=>{
     await page.locator('id=bmwcheck').click()
     expect(page.locator('id=bmwcheck')).toBeChecked()
     //Taking Screenshot
-    await page.screenshot({ path: 'screenshot3.png', fullPage: true })
+    await page.screenshot({ path: './screenShot/screenshot.png', fullPage: true })
     //Selecting an Radio button.
     await page.locator('id=bmwradio').click();
     //Taking Screenshot
-    await page.screenshot({ path: 'screenshot2.png', fullPage: true })
+    await page.screenshot({ path: './screenShot/screenshot.png', fullPage: true })
 });
 
 test('Select Options',async({page})=>{
@@ -24,9 +24,9 @@ test('Select Options',async({page})=>{
     //Selecting One Value From the DropDown
     await page.locator('id=carselect').selectOption('bmw')
     //Taking Screenshot
-    await page.screenshot({ path: 'screenshot.png', fullPage: true })
+    await page.screenshot({ path: './screenShot/screenshot.png', fullPage: true })
     //Selecting Mutiple Records
     await page.locator('id=multiple-select-example').selectOption(['apple'],['orange'],['peach'])
     //Taking Screenshot
-    await page.screenshot({ path: 'screenshot1.png', fullPage: true })
+    await page.screenshot({ path: './screenShot/screenshot.png', fullPage: true })
 });
