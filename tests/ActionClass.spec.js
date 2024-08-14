@@ -4,6 +4,8 @@ test('Action Class-Text Input',async({page})=>{
     await page.goto('https://www.letskodeit.com/practice')
     await page.locator('id=autosuggest').fill("Hello")
     await page.locator('id=autosuggest').fill("bye")
+    //Hover on an Element
+    await page.locator('id=mousehover').hover();
 });
 
 test('CheckBox Radio Buttons',async({page})=>{
