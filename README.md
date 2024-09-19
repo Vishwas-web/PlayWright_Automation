@@ -40,6 +40,6 @@ npx playwright test
 ## Repository Structure
 - tests/ - This directory will contain all your Playwright test scripts.
 - README.md - This file, providing information about the repository and installation steps.
-### Feel free to create new test scripts and place them inside the tests/ directory for practice.
+### Feel free to create new test scripts and place them inside the tests/ directory for practice and dont forget to create a new branch.
 
 ## Happing Testing!!
